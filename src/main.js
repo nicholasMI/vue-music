@@ -6,6 +6,10 @@ import App from './App'
 import store from './store'
 import router from './router'
 
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
+Vue.use(VueAwesomeSwiper)
+
 Vue.use(VueResource)
 Vue.use(VueLazyload, {
     error: require('./assets/loading.svg'),
